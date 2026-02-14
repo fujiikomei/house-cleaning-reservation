@@ -9,7 +9,7 @@ export default function ThanksPage() {
         </h1>
 
         <p className="text-gray-600 mb-6">
-          予約を受け付けました。確認メールをご確認ください。
+          予約を受け付けました。
         </p>
 
         <Link
