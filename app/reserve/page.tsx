@@ -62,6 +62,7 @@ export default function ReservePage() {
 
         <select name="menu" required className="border p-2">
           <option value="">メニューを選択</option>
+          <option value="2時間コース">1時間コース</option>
           <option value="2時間コース">2時間コース</option>
           <option value="3時間コース">3時間コース</option>
         </select>
