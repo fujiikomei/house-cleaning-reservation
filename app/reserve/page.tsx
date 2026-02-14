@@ -53,13 +53,17 @@ export default function ReservePage() {
           className="border p-2"
         />
 
-        <input
-          name="datetime"
-          placeholder="日時"
-          type="datetime-local"
-          required
-          className="border p-2"
-        />
+        <div className="flex flex-col">
+          <label className="mb-1 font-medium text-gray-700">
+            日時
+          </label>
+          <input
+            name="datetime"
+            type="datetime-local"
+            required
+            className="border p-2"
+          />
+        </div>
 
         <select name="menu" required className="border p-2">
           <option value="">メニューを選択</option>
