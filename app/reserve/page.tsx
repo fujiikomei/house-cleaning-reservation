@@ -55,6 +55,7 @@ export default function ReservePage() {
 
         <input
           name="datetime"
+          placeholder="日時"
           type="datetime-local"
           required
           className="border p-2"
